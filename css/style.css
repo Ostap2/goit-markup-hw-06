@@ -633,6 +633,12 @@ top: 192px;
 
 border-radius: 4px;
 }
-.modal {
-    padding:72px 24px 24px ;
+.title-label {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.04em;
+color: #8E8F99;
 }
