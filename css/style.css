@@ -633,31 +633,6 @@ top: 192px;
 
 border-radius: 4px;
 }
-.label-name {
-    width: 360px;
-height: 58px;
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.label-email {
-    width: 360px;
-    height: 58px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-.label-phone {
-    width: 360px;
-height: 58px;
-flex: none;
-order: 1;
-flex-grow: 0;
-}
-.comment {
-    width: 360px;
-height: 138px;
-flex: none;
-order: 3;
-flex-grow: 0;
+.modal {
+    padding: 112px 24px 24px;
 }
