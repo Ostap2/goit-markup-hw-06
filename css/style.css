@@ -604,3 +604,61 @@ border-radius: 4px;
     pointer-events: none;
     scale: 250ms;
 }
+.label-title {
+    position: absolute;
+width: 360px;
+height: 24px;
+left: 540px;
+top: 152px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.form-label {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 360px;
+height: 336px;
+left: 540px;
+top: 192px;
+
+border-radius: 4px;
+}
+.label-name {
+    width: 360px;
+height: 58px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.label-email {
+    width: 360px;
+    height: 58px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.label-phone {
+    width: 360px;
+height: 58px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.comment {
+    width: 360px;
+height: 138px;
+flex: none;
+order: 3;
+flex-grow: 0;
+}

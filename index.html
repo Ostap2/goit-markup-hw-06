@@ -221,15 +221,20 @@
       </a>
       </button>
       <!-- label -->
-      <h1>Leave your contacts and we will call you back</h1>
-      <form>
-         <label>
+      <h1 class="label-title">Leave your contacts and we will call you back</h1>
+      <form class="form-label">
+         <label class="label-name">
           Name
           <input type="text" name="name" />
         </label>
 
+        <label class="label-phone">
+          Phone
+          <input type="text" name="phone" />
         </label>
-        <label>
+
+        </label>
+        <label class="label-email ">
           Email
           <input type="text" name="email" />
         </label>
@@ -238,14 +243,13 @@
           Comment
           <textarea name="Comment" rows="5" placeholder="Text input"></textarea>
         </label>
-
-        <label>
+      </form>       
+       <label>
           <input type="checkbox" name="language" value="python">
           I accept the terms and conditions of the <a href="">Privacy Policy</a>
         </label>
 
         <button type="button">Send</button>
-      </form>
       <!-- END -->
       </div>
       <script src="./js/modal.js"></script>
