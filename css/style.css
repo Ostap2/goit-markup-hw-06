@@ -605,7 +605,6 @@ border-radius: 4px;
     scale: 250ms;
 }
 .label-title {
-    position: absolute;
     width: 360px;
     height: 24px;
     left: 540px;
@@ -626,7 +625,6 @@ align-items: flex-start;
 padding: 0px;
 gap: 8px;
 
-position: absolute;
 width: 360px;
 height: 336px;
 left: 540px;
@@ -661,4 +659,7 @@ height: 138px;
 flex: none;
 order: 3;
 flex-grow: 0;
+}
+.modal {
+    padding:72px 24px 24px ;
 }
