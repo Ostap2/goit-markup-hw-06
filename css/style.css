@@ -656,7 +656,13 @@ order: 1;
 flex-grow: 0;
 }
 .button-submit {
-    padding: 119px 504px 120px;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 119px 504px 120px;
+gap: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 color:#ffffff ;
 background-color:#404BBF ;
 cursor: pointer;
