@@ -661,9 +661,12 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 gap: 10px;
-background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+color:#ffffff ;
+background-color:#404BBF ;
+cursor: pointer;
+background-color: #4D5AE5 
 }
 .Send {
     font-family: 'Roboto';
