@@ -651,12 +651,18 @@ letter-spacing: 0.04em;
 color: #8E8F99;
 }
 .label-accept {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px; 
-   
-    border-radius: 4px;
+    width: 338px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 input, textarea {
     padding: 8px;
