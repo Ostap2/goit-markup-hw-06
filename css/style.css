@@ -655,7 +655,7 @@ color: #8E8F99;
     flex-direction: row;
     align-items: center;
     gap: 8px; 
-   padding: 24px 464px 24px;
+   padding: 24px 464px;
     border-radius: 4px;
 }
 input, textarea {
