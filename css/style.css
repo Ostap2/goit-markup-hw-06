@@ -669,6 +669,10 @@ input, textarea {
     font-family: inherit;
     font-size: inherit;
   }
+  input {
+    padding: 8px;
+    font-family: inherit;
+  }
   
   label {
     display: flex;
