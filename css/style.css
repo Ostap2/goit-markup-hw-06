@@ -669,14 +669,13 @@ input, textarea {
     font-family: inherit;
     font-size: inherit;
   }
-  input {
-    padding: 8px;
-    font-family: inherit;
-  }
-  
+
   label {
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
   }
-  
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
