@@ -24,16 +24,8 @@
 .list {
     list-style: none;
 }
-.link {  
-    color:#404bbf ;
+.link {
     text-decoration: none;
-}
-.menu:after {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#2e2f42 ;
 }
 .link:hover {
     color:#404bbf ;
@@ -41,7 +33,6 @@
 .link:focus {
     color:#404bbf ;
 }
-
 .address {
     margin-left: auto;
     font-style: normal;
@@ -244,9 +235,26 @@
     gap: 40px;
 }
 .menu-li {
+    text-decoration: none;
+    color: #2E2F42;
     display: block;
     padding: 24px 0;
     margin-right: auto;
+}
+.menu-li:after {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42 ;
+}
+.menu-li:hover {
+    color:#404bbf ;
+   
+}
+.menu-li:focus {
+    color:#404bbf ;
+   
 }
 .adress-list {
     display: flex;
@@ -573,16 +581,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     margin-bottom: 20px;
 }
 .backdrop {
-    padding:72px 24px 24px ;
-position: absolute;
-scale: 250ms; 
-width: 408px;
-height: 584px;
-left: 516px;
-top: 80px;
-background: #FCFCFC;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
 }
 .close {
     position: absolute;
@@ -590,7 +590,7 @@ border-radius: 4px;
     right: 24px;
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 50%;
     cursor: pointer;
 }
 .close:hover {
@@ -604,6 +604,18 @@ border-radius: 4px;
      opacity: 0;
     pointer-events: none;
     scale: 250ms;
+}
+.modal {
+    position: absolute;
+    scale: 250ms; 
+    width: 408px;
+    height: 584px;
+    left: 516px;
+    top: 80px;
+    background: #FCFCFC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transform: translate(50%);
 }
 .label-title {
     width: 360px;
