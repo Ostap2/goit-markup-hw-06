@@ -716,3 +716,46 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+.form-label {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 360px;
+height: 336px;
+left: 540px;
+top: 192px;
+
+border-radius: 4px;
+}
+.title-label {
+    width: 360px;
+height: 58px;
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+left: 0%;
+right: 90.56%;
+top: 0%;
+bottom: 75.86%;
+
+/* Small Text */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+
+letter-spacing: 0.04em;
+
+/* LIGHT SLATE */
+
+color: #8E8F99;
+
+}
