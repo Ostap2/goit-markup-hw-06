@@ -737,25 +737,24 @@ height: 58px;
 flex: none;
 order: 0;
 flex-grow: 0;
-position: absolute;
-left: 0%;
-right: 90.56%;
-top: 0%;
-bottom: 75.86%;
-
-/* Small Text */
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height, or 117% */
-
-letter-spacing: 0.04em;
-
-/* LIGHT SLATE */
-
-color: #8E8F99;
-
 }
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  input, textarea {
+    padding: 8px;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  
+  textarea {
+    resize: none;
+  }
