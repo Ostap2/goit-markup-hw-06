@@ -743,18 +743,33 @@ body {
     line-height: 1.5;
   }
   
-  input, textarea {
+input, textarea {
     padding: 8px;
     font-family: inherit;
     font-size: inherit;
   }
   
-  label {
+label {
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
   }
-  
-  textarea {
+form {
+    max-width: 300px;
+  }
+textarea {
     resize: none;
   }
+.checkbox {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+position: absolute;
+width: 360px;
+height: 16px;
+left: 540px;
+top: 544px;
+border-radius: 4px;
+}
