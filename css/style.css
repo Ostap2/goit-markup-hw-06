@@ -795,16 +795,20 @@ border-radius: 4px;
 }
 
 .subscribe {
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 24px;
-gap: 16px;
+    width: 77px;
+    height: 24px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 
-background: #4D5AE5;
-border-radius: 4px;
-}
-.form-footer {
-    flex: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;    
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
