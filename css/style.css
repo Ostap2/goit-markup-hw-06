@@ -801,3 +801,6 @@ border-radius: 4px;
 .svg-input {
     position: absolute;
 }
+.subscribe {
+    flex-direction: 24px;
+}
