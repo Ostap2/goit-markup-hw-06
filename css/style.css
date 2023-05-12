@@ -804,3 +804,7 @@ border-radius: 4px;
 .form-footer {
  padding-left: 80px;
 }
+.subscribe {
+    padding-left: 24px;
+    padding-top: 0%;
+}
