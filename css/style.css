@@ -656,7 +656,7 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    padding-top: 72px;
     width: 408px;
     min-height: 576px;
     padding: 24px;
@@ -673,7 +673,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-        
+    top: 24px;
+    right: 24px;
     width: 24px;
     height: 24px;
     margin-left: auto;
@@ -827,7 +828,6 @@ img {
 
 .policy-checkbox-unchecked {
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 250ms;
     transition-timing-function:
@@ -837,7 +837,9 @@ img {
 .policy-checkbox:checked ~ .policy-checkbox-icon > .policy-checkbox-unchecked {
     opacity: 0;
 }
-
+.policy-checkbox-checked:focus {
+    opacity: 100%;
+} 
 .policy-checkbox-checked {
     opacity: 0;
 
