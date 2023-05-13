@@ -290,7 +290,7 @@ img {
     
     background-image: 
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url(../images/hero-image/people-office.jpg);
+        url(../images/people-office-1.jpg);
     background-color: var(--dark-color);
     background-repeat: no-repeat;
     background-position: center;
@@ -326,7 +326,7 @@ img {
     border: none;
     color: var(--white-color);
     background-color: var(--primary-brand);
-
+       
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: 
@@ -807,7 +807,7 @@ img {
 .registration-form-textarea:focus {
     outline-color: var(--primary-brand);
 }
-
+hero
 .registration-form-textarea::placeholder {
     color: var(--navyblue-modal);
     font-weight: 400;
