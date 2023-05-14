@@ -1006,3 +1006,6 @@ hero
 .policy-checkbox-unchecked:focus {
     fill: #404BBF;
 }
+.policy-checkbox-unchecked:hover {
+    fill: #404BBF;
+}
