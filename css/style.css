@@ -1003,7 +1003,6 @@ hero
 .fon {
     background-image: url(/images/people-office-1.jpg);
 }
-.policy-checkbox:focus {
-    
-    outline-color: var(--primary-brand);
+.policy-checkbox-unchecked:focus {
+    outline: 1px solid blue;
 }
