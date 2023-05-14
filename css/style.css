@@ -1006,6 +1006,7 @@ hero
 .line-checkbox:focus {
     outline-color: var(--primary-brand);
 }
+hero
 .line-checkbox::placeholder {
     color: var(--navyblue-modal);
     font-weight: 400;
