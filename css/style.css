@@ -1003,9 +1003,6 @@ hero
 .fon {
     background-image: url(/images/people-office-1.jpg);
 }
-.policy-checkbox-unchecked:focus {
-    fill: #404BBF;
-}
-.policy-checkbox-unchecked:hover {
-    fill: #404BBF;
+.policy-checkbox-icon:focus {
+outline: #404BBF;
 }
