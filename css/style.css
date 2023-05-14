@@ -1003,10 +1003,3 @@ hero
 .fon {
     background-image: url(/images/people-office-1.jpg);
 }
-
-.policy-checkbox-icon:focus {
-    fill: blue;
-}
-.policy-checkbox:focus + svg {
-    fill: blue;
-  }
