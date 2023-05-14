@@ -1007,3 +1007,6 @@ hero
 .policy-checkbox-icon:focus {
     fill: blue;
 }
+.policy-checkbox:focus + svg {
+    fill: blue;
+  }
