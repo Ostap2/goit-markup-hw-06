@@ -1003,6 +1003,6 @@ hero
 .fon {
     background-image: url(/images/people-office-1.jpg);
 }
-.policy-checkbox-icon {
-outline: #404BBF;
+.policy-checkbox-unchecked {
+    outline: #4D5AE5;
 }
