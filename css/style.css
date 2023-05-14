@@ -1004,5 +1004,6 @@ hero
     background-image: url(/images/people-office-1.jpg);
 }
 .policy-checkbox:focus {
-    outline: 1px solid blue;
+    
+    outline-color: var(--primary-brand);
 }
