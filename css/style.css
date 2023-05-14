@@ -1004,5 +1004,12 @@ hero
     background-image: url(/images/people-office-1.jpg);
 }
 .line-checkbox:focus {
-    outline: 1px solid blue;
+    outline-color: var(--primary-brand);
+}
+.line-checkbox::placeholder {
+    color: var(--navyblue-modal);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
