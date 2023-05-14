@@ -1003,25 +1003,6 @@ hero
 .fon {
     background-image: url(/images/people-office-1.jpg);
 }
-.line-checkbox {
-    border: 1px solid var(--navyblue-modal);
-    border-radius: 4px;
-    outline: 2px solid transparent;
-    outline-offset: -2px;
-
-    transition-property: outline-color;
-    transition-duration: 250ms;
-    transition-timing-function:
-        cubic-bezier(0.4, 0, 0.2, 1);
-}
-.line-checkbox:focus {
-    outline-color: var(--primary-brand);
-}
-hero
-.line-checkbox::placeholder {
-    color: var(--navyblue-modal);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
+.policy-checkbox-unchecked:focus {
+    fill: #404BBF;
 }
