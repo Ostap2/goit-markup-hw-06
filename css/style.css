@@ -845,7 +845,7 @@ hero
 .policy-checkbox:checked ~ .policy-checkbox-icon > .policy-checkbox-checked {
     opacity: 1;
 }
-.policy-checkbox:focus {
+.policy-checkbox:focus .policy-checkbox-unchecked:focus{
     border-color: #404BBF;
 }
 
