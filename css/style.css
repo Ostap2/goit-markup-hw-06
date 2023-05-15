@@ -1005,7 +1005,7 @@ hero
 .fon {
     background-image: url(/images/people-office-1.jpg);
 }
-.policy-checkbox:checked {
+.policy-checkbox:checked .policy-checkbox-unchecked {
     background-color: var(--cloud-color);
     border-color: var(--pressed-state-color);
     border-radius: 10px;
