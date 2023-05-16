@@ -729,7 +729,7 @@ img {
 
 .registration-input-container {
     position: relative;
-
+    background-color: transparent;
     margin-bottom: 8px;
 }
 
